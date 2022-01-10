@@ -1,0 +1,54 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.align-center {
+  text-align: center;
+}
+.primary-color {
+  color: #003589;
+}
+.secondary-color {
+  color: #007989;
+}
+.positioning div {
+  border: 1px solid rgb(211, 211, 211);
+  width: 200px;
+}
+.positioning {
+  position: relative;
+}
+#boxbox {
+  background-color: blueviolet;
+  position: sticky;
+  width: 200px;
+  height: 200px;
+}
+#boy {
+  position: relative;
+  top: 80px;
+  z-index: 3;
+}
+#ring {
+  position: relative;
+  z-index: 2;
+}
+#water {
+  position: relative;
+  top: -80px;
+  z-index: 1;
+}
+td,
+th {
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+table {
+  border-collapse: collapse;
+}
+.fab {
+  font-size: 40px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
